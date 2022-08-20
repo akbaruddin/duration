@@ -1,0 +1,24 @@
+{
+  "name": "duration-in-milliseconds",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/akbaruddin/duration.git",
+  "author": "akbaruddin <akbaruddin@live.in>",
+  "license": "MIT",
+  "keywords": [
+    "duration",
+    "milliseconds",
+    "string",
+    "time",
+    "hours",
+    "minutes",
+    "seconds",
+    "number"
+  ],
+  "scripts": {
+    "build": "tsc index.ts"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
