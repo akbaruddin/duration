@@ -1,6 +1,6 @@
 {
   "name": "duration-in-milliseconds",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "main": "dist/index.js",
   "repository": "https://github.com/akbaruddin/duration.git",
   "author": "akbaruddin <akbaruddin@live.in>",
