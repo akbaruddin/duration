@@ -1,7 +1,7 @@
 {
   "name": "duration-in-milliseconds",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "1.0.1",
+  "main": "dist/index.js",
   "repository": "https://github.com/akbaruddin/duration.git",
   "author": "akbaruddin <akbaruddin@live.in>",
   "license": "MIT",
@@ -15,10 +15,18 @@
     "seconds",
     "number"
   ],
+  "tsup": {
+    "entry": ["index.ts"],
+    "splitting": false,
+    "sourcemap": true,
+    "clean": true,
+    "minify": true
+  },
   "scripts": {
-    "build": "tsc index.ts"
+    "build": "tsup"
   },
   "devDependencies": {
-    "typescript": "^4.7.4"
+    "tsup": "^8.1.0",
+    "typescript": "^5.4.5"
   }
 }
